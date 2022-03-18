@@ -30,13 +30,13 @@ exports.handler = async function (event, _context) {
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
     },
-    body: {
+    body: JSON.stringify({
       name: 'Learning NFT (name)',
       description: 'Learning NFT (description)',
       image: 'https://avatars.githubusercontent.com/u/15199722',
       external_link: 'https://github.com/',
       seller_fee_basis_points: 100,
       fee_recipient: '0x664f6De6C2FB6Df7cAC37d774af64d11346f0cb7',
-    },
+    }),
   };
 };
