@@ -31,7 +31,7 @@ exports.handler = async function (event, _context) {
       'Content-Type': 'application/json; charset=utf-8',
     },
     body: JSON.stringify({
-      name: 'Learning NFT (name)',
+      name: 'Change 1 - Learning NFT (name)',
       description: 'Learning NFT (description)',
       image: 'https://avatars.githubusercontent.com/u/15199722',
       external_link: 'https://github.com/',
